@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8c23e883_b9b5c16e",
+        "filename": "common/private/priv_app.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2020-01-30T12:36:42Z",
+      "side": 1,
+      "message": "shouldn\u0027t be needed anymore",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 30
+      },
+      "revId": "e1ba67736f6f70eb477922c10a816803de6ae21b",
+      "serverId": "8720d348-3d66-43e6-b480-1d69039ac554",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9a6021b3_ff9178b9",
+        "filename": "common/private/property_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2020-01-30T12:36:42Z",
+      "side": 1,
+      "message": "unnecessary, persist.sys.theme.* are already labelled theme_prop",
+      "revId": "e1ba67736f6f70eb477922c10a816803de6ae21b",
+      "serverId": "8720d348-3d66-43e6-b480-1d69039ac554",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4d1c5f41_8b585192",
+        "filename": "common/private/system_app.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2020-01-30T12:36:42Z",
+      "side": 1,
+      "message": "shouldn\u0027t be needed anymore",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 32
+      },
+      "revId": "e1ba67736f6f70eb477922c10a816803de6ae21b",
+      "serverId": "8720d348-3d66-43e6-b480-1d69039ac554",
+      "unresolved": true
+    }
+  ]
+}
