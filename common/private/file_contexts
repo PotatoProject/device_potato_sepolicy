@@ -21,3 +21,7 @@
 # ADB Root
 /system/bin/adb_root       u:object_r:adbroot_exec:s0
 /data/adbroot(/.*)?        u:object_r:adbroot_data_file:s0
+
+# FakeRoot/Gapps
+/system/bin/fakeapproot    u:object_r:posp_extra_exec:s0
+/data/extra(/.*)?          u:object_r:posp_extra_data_file:s0
