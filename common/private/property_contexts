@@ -15,4 +15,4 @@ persist.bootanim.color4     u:object_r:bootanim_system_prop:s0     exact    int
 ro.potato.device                    u:object_r:build_prop:s0
 
 # Recovery update
-#persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
+persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
