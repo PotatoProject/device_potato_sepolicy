@@ -18,15 +18,11 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/potato/sepolicy/common/dynamic \
-    device/potato/sepolicy/common/system \
-    hardware/google/pixel-sepolicy/flipendo \
-    hardware/google/pixel-sepolicy/turbo_adapter
+    device/potato/sepolicy/common/system
 else
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/potato/sepolicy/common/dynamic \
-    device/potato/sepolicy/common/vendor \
-    hardware/google/pixel-sepolicy/flipendo \
-    hardware/google/pixel-sepolicy/turbo_adapter
+    device/potato/sepolicy/common/vendor
 endif
 
 # Selectively include legacy rules defined by the products
